@@ -7,12 +7,12 @@
 }
 .header{
     display: flex;
-    margin:1% 5% ;
+    margin:1% 15% ;
     justify-content: space-between;
 }
 .header h1{
     font-size: 25px;
-    color:rgb(49, 48, 48);
+    color:rgb(12, 90, 67);
 }
 .header ul{
     display: inline-block;
@@ -25,4 +25,19 @@ color:rgb(53, 52, 52);
     display: inline;
     justify-content: center;
     margin: 0 20px;
+}
+.header ul li a{
+   text-decoration: none;
+   color: firebrick;
+}
+.mainbody{
+    margin: 4% 15% ;
+    
+}
+.mainbody h1{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.mainbody p{
+    line-height: 1.2;
 }
